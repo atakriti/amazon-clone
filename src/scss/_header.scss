@@ -12,11 +12,16 @@ header{
         height: 100%;
         display: flex;
         align-items: center;
+       a{
+           height: 100%;
+           display: flex;
+           align-items: center;
         img{
             width: 5vw;
             height: 1.4vw;
             
         }
+       }
     }
    
     // ========== location ============
@@ -27,19 +32,21 @@ header{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        small{
-            color: white;
-            font-size: 0.7vw;
-            margin-left: 10%;
-        }
-        p{
-            color: white;
-            font-size: 0.8vw;
-            width: 100%;
-            i{
-                font-size: 0.9vw;
-                margin-right: 3%;
+        a{
+            small{
                 color: white;
+                font-size: 0.7vw;
+                margin-left: 10%;
+            }
+            p{
+                color: white;
+                font-size: 0.8vw;
+                width: 100%;
+                i{
+                    font-size: 0.9vw;
+                    margin-right: 3%;
+                    color: white;
+                }
             }
         }
         
@@ -92,20 +99,25 @@ header{
     // ========= Return & orders ==============
     .return{
         width: 4%;
-        p{
-            font-size: 0.8vw;
-            color: white;
-            
+        a{
+            p{
+                font-size: 0.8vw;
+                color: white;
+                
+            }
         }
     }
     // ============ Basket =============
     .basket{
-        width: 7%;
+        width: 7%;        
+        height: 100%;       
+       a{
+           height: 100%;
         display: flex;
-        height: 100%;
         align-items: center;
         justify-content: space-around;
         color: white;
+        text-decoration: none;
         i{
             font-size: 1.8vw;
         }
@@ -115,8 +127,28 @@ header{
             flex-direction: column;
             width: 60%;
         }
+       }
       
     }
+    
 
-
+}
+// =============== NAV LINKS ================
+nav{
+    background-color: #232f3e;    
+    height: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        font-size: 0.8vw;
+        color: white;
+        text-decoration: none;
+        width: 7%;
+        i{
+            margin-right: 7%;
+        }
+    }
+    
 }
