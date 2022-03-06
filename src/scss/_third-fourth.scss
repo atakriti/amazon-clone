@@ -3,15 +3,19 @@ main{
         .main-containers-rows{
             .first-scroll{
                 width: 100%;
-                overflow: hidden;
+                overflow: scroll;
                 background-color: white;
                 padding: 1% 0.5%;       
-                &:hover{
-                    overflow: scroll;
-                }
+                
                 &::-webkit-scrollbar{
                     height: 0.3vw;
                     width: 0;
+                    display: none;
+                }
+                &:hover{
+                    &::-webkit-scrollbar{
+                        display: block;
+                    }
                 }
                 p{
                     font-size: 1.5vw;
@@ -41,16 +45,19 @@ main{
             .second-scroll{
                 margin-top: 3%;
                 width: 100%;
-                overflow: hidden;
+                overflow: scroll;
                 background-color: white;
-                padding: 1% 0.5%;
-                
-                 &:hover{
-                     overflow: scroll;
-                 }
+                padding: 1% 0.5%;                
+            
                   &::-webkit-scrollbar{
                      height: 0.3vw;
                      width: 0;
+                     display: none;
+                 }
+                 &:hover{
+                    &::-webkit-scrollbar{
+                        display: block;
+                    }
                  }
                 p{
                     font-size: 1.5vw;

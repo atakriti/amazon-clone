@@ -1,4 +1,4 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
     header{
         height: 6vw;
         // ======= logo ========
@@ -13,17 +13,20 @@
         }
         // ======== location ==========
         .header-location{
+            height: 70%;
             width: 15%;
+            p{                
+                font-size: 1.5vw;                
+            }
+           
             a{
-                small{
-                    font-size: 1.3vw;
-                }
-                p{
+               
+                font-size: 1.7vw;
+                i{
                     font-size: 1.5vw;
-                    i{
-                        font-size: 1.4vw;
-                    }
+                    
                 }
+                
                 
             }
         }
@@ -91,6 +94,7 @@
     // =======================================
     main{
         .main-container{
+            top: 60%;
             .main-containers-rows{
                 .first-two-rows{
                     div{
@@ -125,6 +129,7 @@
             }
             // ============ FOOTER ============
             .footer{
+
                 .first-section{
                     div{
                         p{

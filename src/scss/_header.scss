@@ -31,28 +31,27 @@ header{
     .header-location{
         width: 10%;
         height: 100%;
-        padding: 0.4%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        p{
+            color: white;
+            font-size: 0.7vw;
+            width: 100%;
+            
+        }
+       
         a{
            text-decoration: none;
-
-            small{
+            color: white;
+            font-size: 0.8vw;
+            i{
+                font-size: 0.9vw;
+                margin-right: 3%;
                 color: white;
-                font-size: 0.7vw;
-                margin-left: 10%;
             }
-            p{
-                color: white;
-                font-size: 0.8vw;
-                width: 100%;
-                i{
-                    font-size: 0.9vw;
-                    margin-right: 3%;
-                    color: white;
-                }
-            }
+            
+            
         }
         
     }
