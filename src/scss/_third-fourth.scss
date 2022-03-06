@@ -1,67 +1,78 @@
 main{
     .main-container{
-        .first-scroll{
-            width: 100%;
-            overflow: hidden;
-            background-color: white;
-            padding: 1% 0.5%;
-            
-            &:hover{
-                overflow: scroll;
-            }
-            p{
-                font-size: 1.5vw;
-                font-weight: bold;
-                margin-bottom: 2%;
-            }
-            div{
-                width:200%;
-                height: 100%;
-                white-space: nowrap;
-                display: flex;
-                justify-content: space-between;
-              a{
-                img{
-                    width:100% ;
-                    height: 100%;
+        .main-containers-rows{
+            .first-scroll{
+                width: 100%;
+                overflow: hidden;
+                background-color: white;
+                padding: 1% 0.5%;       
+                &:hover{
+                    overflow: scroll;
                 }
-              }
-                
-                   
-                
-            }
-        }
-        // ============= Second Scroll row ===============
-        .second-scroll{
-            margin-top: 3%;
-            width: 100%;
-            overflow: hidden;
-            background-color: white;
-            padding: 1% 0.5%;
-            
-            &:hover{
-                overflow: scroll;
-            }
-            p{
-                font-size: 1.5vw;
-                font-weight: bold;
-                margin-bottom: 2%;
-            }
-            div{
-                width:200%;
-                height: 100%;
-                white-space: nowrap;
-                display: flex;
-                justify-content: space-between;
-              a{
-                img{
-                    width:100% ;
-                    height: 100%;
+                &::-webkit-scrollbar{
+                    height: 0.3vw;
+                    width: 0;
                 }
-              }
+                p{
+                    font-size: 1.5vw;
+                    font-weight: bold;
+                    margin-bottom: 2%;
+                }
+                div{
+                    width:200%;
+                    height: 100%;
+                    white-space: nowrap;
+                    display: flex;
+                    justify-content: space-between;
+                    
+    
+                  a{
+                    img{
+                        width:100% ;
+                        height: 100%;
+                    }
+                  }
+                    
+                       
+                    
+                }
+            }
+            // ============= Second Scroll row ===============
+            .second-scroll{
+                margin-top: 3%;
+                width: 100%;
+                overflow: hidden;
+                background-color: white;
+                padding: 1% 0.5%;
                 
-                   
-                
+                 &:hover{
+                     overflow: scroll;
+                 }
+                  &::-webkit-scrollbar{
+                     height: 0.3vw;
+                     width: 0;
+                 }
+                p{
+                    font-size: 1.5vw;
+                    font-weight: bold;
+                    margin-bottom: 2%;
+                }
+                div{
+                    width:200%;
+                    height: 100%;
+                    white-space: nowrap;
+                    display: flex;
+                    justify-content: space-between;
+                  a{
+                    img{
+                        width:100% ;
+                        height: 100%;
+                    }
+                  }
+                    
+                       
+                    
+                }
             }
         }
     }
