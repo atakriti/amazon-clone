@@ -16,14 +16,14 @@
             height: 70%;
             width: 15%;
             p{                
-                font-size: 1.5vw;                
+                font-size: 1.3vw;                
             }
            
             a{
                
-                font-size: 1.7vw;
+                font-size: 1.4vw;
                 i{
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
                     
                 }
                 
@@ -52,11 +52,11 @@
         // =========== sign-in ==============
         .sign-in{
             p{
-                font-size: 1.5vw;
+                font-size: 1.3vw;
 
             }
             a{
-                font-size: 1.5vw;
+                font-size: 1.3vw;
             }
         }
         // =========== Return & Orders ==========
@@ -64,7 +64,7 @@
             width: 6%;
             a{
                 p{
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
                 }
             }
         }
@@ -74,10 +74,10 @@
             margin-right: 2%;
             a{
                 i{
-                    font-size: 2vw;
+                    font-size: 1.7vw;
                 }
                 p{
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
                 }
             }
         }
@@ -93,8 +93,10 @@
     // HEADER FINISHED ======================
     // =======================================
     main{
+        
         .main-container{
             top: 60%;
+
             .main-containers-rows{
                 .first-two-rows{
                     div{
