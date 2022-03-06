@@ -195,15 +195,15 @@ main .main-container .main-containers-rows .first-two-rows div p {
   margin-bottom: 4%;
   font-weight: bold;
 }
-main .main-container .main-containers-rows .first-two-rows div img {
-  width: 100%;
-  height: 80%;
-}
 main .main-container .main-containers-rows .first-two-rows div a {
   font-size: 0.8vw;
   margin-top: 4%;
   text-decoration: none;
   color: #06068a;
+}
+main .main-container .main-containers-rows .first-two-rows div a img {
+  width: 100%;
+  height: 100%;
 }
 main .main-container .main-containers-rows .first-two-rows div .devices {
   display: flex;
