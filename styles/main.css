@@ -343,7 +343,7 @@ main .main-container .main-containers-rows .second-scroll div a img {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 2%;
+  padding: 2% 2% 20% 2%;
   background-color: #232F3E;
 }
 .footer .info-footer div {
