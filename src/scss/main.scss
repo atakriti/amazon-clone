@@ -1,11 +1,23 @@
 @import "./_var";
 @import "./header";
 @import "./bg";
+@import "./_first-two-rows";
+@import "./third-fourth";
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #EAEDED;
+}
+::-webkit-scrollbar{
+    background-color: rgb(218, 218, 218);
+    width: 0.6vw;
+    height: 0.5vw;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
 }
