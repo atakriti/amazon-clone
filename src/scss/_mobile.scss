@@ -1,0 +1,165 @@
+@media only screen and (max-width:600px) {
+    header{
+        height: 6vw;
+        // ======= logo ========
+        .header-logo{
+            width: 10%;
+            a{
+                img{
+                    width: 100%;
+                    height: 50%;
+                }
+            }
+        }
+        // ======== location ==========
+        .header-location{
+            width: 15%;
+            a{
+                small{
+                    font-size: 1.3vw;
+                }
+                p{
+                    font-size: 1.5vw;
+                    i{
+                        font-size: 1.4vw;
+                    }
+                }
+                
+            }
+        }
+        // ==========form============
+        form{
+            width: 40%;
+            height: 60%;
+            input{
+                font-size: 1.5vw;
+                width: 90%;
+            }
+            button{
+                width: 10%;
+                font-size: 1.5vw;
+
+            }
+        }
+        // ============= FLAG =============
+        img{
+            width: 3vw;
+            height: 2vw;
+        }
+        // =========== sign-in ==============
+        .sign-in{
+            p{
+                font-size: 1.5vw;
+
+            }
+            a{
+                font-size: 1.5vw;
+            }
+        }
+        // =========== Return & Orders ==========
+        .return{
+            width: 6%;
+            a{
+                p{
+                    font-size: 1.5vw;
+                }
+            }
+        }
+        // ============== Basket ===========
+        .basket{
+            width: 8%;
+            margin-right: 2%;
+            a{
+                i{
+                    font-size: 2vw;
+                }
+                p{
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+    // =============== Nav links ==================
+    nav{
+        height: 5vw;
+        a{
+            font-size: 1.3vw;            
+            margin-right: 1%;
+        }
+    }
+    // HEADER FINISHED ======================
+    // =======================================
+    main{
+        .main-container{
+            .main-containers-rows{
+                .first-two-rows{
+                    div{
+                        width: 24%;
+                        p{
+                            font-size: 1.6vw;
+                        }
+                        a{
+                            font-size: 1.2vw;
+                        }
+
+                        
+                    }
+                    .amazon-devices{
+                        display: none;
+                    }
+                    .ukrania{
+                        display: none;
+                    }
+                }
+                // ================= THE SCROLLS ==============
+                .first-scroll{
+                    p{
+                        font-size: 2vw;
+                    }
+                }
+                .second-scroll{
+                    p{
+                        font-size: 2vw;
+                    }
+                }
+            }
+            // ============ FOOTER ============
+            .footer{
+                .first-section{
+                    div{
+                        p{
+                            font-size: 1.6vw;
+                            a{
+                            font-size: 1.6vw;
+                            }
+                        }
+                        button{
+                            font-size: 1.5vw;
+                            width: 15%;
+                            padding: 1% 0;
+                        }
+                        
+                    }
+                }
+                // ==========BACK-BTN =================
+                .back-btn{
+                    a{
+                        font-size: 2vw;
+                    }
+                }
+                // ============= INFO FOOTER =============
+                .info-footer{
+                    div{
+                        p{
+                            font-size: 1.6vw;
+                        }
+                        a{
+                            font-size: 1.2vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
