@@ -227,16 +227,17 @@ main .main-container .main-containers-rows .first-two-rows div .devices div smal
 
 main .main-container .main-containers-rows .first-scroll {
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   background-color: white;
   padding: 1% 0.5%;
-}
-main .main-container .main-containers-rows .first-scroll:hover {
-  overflow: scroll;
 }
 main .main-container .main-containers-rows .first-scroll::-webkit-scrollbar {
   height: 0.3vw;
   width: 0;
+  display: none;
+}
+main .main-container .main-containers-rows .first-scroll:hover::-webkit-scrollbar {
+  display: block;
 }
 main .main-container .main-containers-rows .first-scroll p {
   font-size: 1.5vw;
@@ -257,16 +258,17 @@ main .main-container .main-containers-rows .first-scroll div a img {
 main .main-container .main-containers-rows .second-scroll {
   margin-top: 3%;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   background-color: white;
   padding: 1% 0.5%;
-}
-main .main-container .main-containers-rows .second-scroll:hover {
-  overflow: scroll;
 }
 main .main-container .main-containers-rows .second-scroll::-webkit-scrollbar {
   height: 0.3vw;
   width: 0;
+  display: none;
+}
+main .main-container .main-containers-rows .second-scroll:hover::-webkit-scrollbar {
+  display: block;
 }
 main .main-container .main-containers-rows .second-scroll p {
   font-size: 1.5vw;
@@ -346,6 +348,7 @@ main .main-container .main-containers-rows .second-scroll div a img {
 .footer .info-footer div {
   display: flex;
   flex-direction: column;
+  width: 23%;
 }
 .footer .info-footer div p {
   font-weight: bold;
@@ -433,6 +436,9 @@ main .main-container .main-containers-rows .second-scroll div a img {
     margin-right: 1%;
   }
 
+  main .main-container {
+    top: 60%;
+  }
   main .main-container .main-containers-rows .first-two-rows div {
     width: 24%;
   }
