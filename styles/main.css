@@ -51,7 +51,6 @@ header form {
   display: flex;
   width: 60%;
   height: 80%;
-  border-radius: 10px;
   align-items: center;
 }
 header form input {
@@ -60,6 +59,7 @@ header form input {
   font-size: 1vw;
   padding-left: 1%;
   outline: none;
+  border-radius: 5px 0 0 5px;
 }
 header form button {
   background-color: #febd69;
@@ -313,8 +313,8 @@ main .main-container .main-containers-rows .second-scroll div a img {
   font-size: 1vw;
 }
 .footer .first-section div button {
-  box-shadow: inset 0px 4px 10px #ffffff;
-  background-color: #f5d27c;
+  box-shadow: inset 0px 7px 10px #ffffff;
+  background-color: #fccb46;
   border: 1px #f1f171 solid;
   width: 10%;
   padding: 0.7% 0;
@@ -457,8 +457,14 @@ main .main-container .main-containers-rows .second-scroll div a img {
   main .main-container .main-containers-rows .first-scroll p {
     font-size: 2vw;
   }
+  main .main-container .main-containers-rows .first-scroll a {
+    margin-right: 1%;
+  }
   main .main-container .main-containers-rows .second-scroll p {
     font-size: 2vw;
+  }
+  main .main-container .main-containers-rows .second-scroll a {
+    margin-right: 1%;
   }
   main .main-container .footer .first-section div p {
     font-size: 1.6vw;
