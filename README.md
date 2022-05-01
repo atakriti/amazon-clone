@@ -10,10 +10,6 @@
 
 ---
 
-
-
-
-
 ##### Developed With
 
 - [x] _HTML5_
